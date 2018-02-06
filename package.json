@@ -1,0 +1,19 @@
+{
+  "name": "automation-testing-mocha",
+  "version": "1.0.0",
+  "description": "Mocha Learning Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innoraft/automation-testing-mocha.git"
+  },
+  "author": "Jasodeep Chatterjee <jasodeepchatterjee@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innoraft/automation-testing-mocha/issues"
+  },
+  "homepage": "https://github.com/innoraft/automation-testing-mocha#readme"
+}

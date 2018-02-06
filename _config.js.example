@@ -1,0 +1,17 @@
+_config = {
+  version:"",
+  baseurl:"",
+  serviceurl:"",
+  filesdir:"",
+  filespri:"",
+  onet_serviceurl:"",
+  onet_baseurl:"",
+  onet_client:'',
+  onet_auth_token:'',
+  hes_baseurl : '',
+  gmap_api_key: '',
+  google_client_secret : '',
+  google_client_ID: ''
+}
+
+module.exports = _config;
