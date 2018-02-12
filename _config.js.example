@@ -1,6 +1,8 @@
 _config = {
   zomato_api: '',
   zomato_baseurl: '',
+  city: '',
+  cuisin: ''
 }
 
 module.exports = _config;
