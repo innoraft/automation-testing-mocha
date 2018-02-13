@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/innoraft/automation-testing-mocha/issues"
   },
-  "homepage": "https://github.com/innoraft/automation-testing-mocha#readme"
+  "homepage": "https://github.com/innoraft/automation-testing-mocha#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
 }
