@@ -1,8 +1,8 @@
 _config = {
-  zomato_api: '',
-  zomato_baseurl: '',
-  city: '',
-  cuisin: ''
+  zomato_api: '8316e598b8ff025cf80fa870bc7f2563',
+  zomato_baseurl: 'https://developers.zomato.com/api',
+  city: 'bangalore',
+  cuisin: 'chinese'
 }
 
 module.exports = _config;
