@@ -10,7 +10,7 @@ var fs = require('fs');
 var obj = JSON.parse(body);
 // document.getElementById("demo").innerHTML = obj.name;
 // console.log(obj.name);
- fs.writeFile('data/' + config.city + '.csv', document.getElementById("demo").innerHTML = obj , function (err) {
+ fs.writeFile('data/' + config.city + '.csv', obj.name , function (err) {
   if (err) {
 	
     console.log('Some error occured - file either not saved or corrupted file saved.');
