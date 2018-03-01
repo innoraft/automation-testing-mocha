@@ -7,10 +7,17 @@ request.get(config.zomato_baseurl + '/search', {headers: {'user-key': config.zom
 
   console.log(body);
 var fs = require('fs'); 
-var obj = JSON.parse(body);
+// var obj = JSON.parse(body);
 // document.getElementById("demo").innerHTML = obj.name;
 // console.log(obj.name);
- fs.writeFile('data/' + config.city + '.csv', obj.name , function (err) {
+const Json2csvParser = require('json2csv').Parser;
+const fields = ['name', 'rating' , 'address'];
+ 
+const json2csvParser = new Json2csvParser({ fields });
+const csv = json2csvParser.parse(body);
+ 
+console.log(csv);
+ fs.writeFile('data/' + config.city + '.csv', csv , function (err) {
   if (err) {
 	
     console.log('Some error occured - file either not saved or corrupted file saved.');
@@ -21,3 +28,7 @@ var obj = JSON.parse(body);
  }}
 });
 
+
+
+
+   
